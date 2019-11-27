@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Canna - the CAN neighbor"
-Date "2019-11-26"
-Rev "r1"
+Date "2019-11-27"
+Rev "1"
 Comp "by Tarik Kurtovic"
 Comment1 "designed for GreatFET"
 Comment2 ""
@@ -970,12 +970,8 @@ F 3 "" H 3900 4200 50  0001 C CNN
 	1    3900 4200
 	0    -1   -1   0   
 $EndComp
-Text Label 3900 3900 2    40   ~ 0
-P1_17
 Wire Wire Line
 	3900 3900 4300 3900
-Text Label 3900 4000 2    40   ~ 0
-P1_18
 Wire Wire Line
 	3900 4000 4300 4000
 $Comp
@@ -984,7 +980,7 @@ U 1 1 5DE0783A
 P 6500 4100
 F 0 "J3" H 6580 4142 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 6580 4051 50  0000 L CNN
-F 2 "" H 6500 4100 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 6500 4100 50  0001 C CNN
 F 3 "~" H 6500 4100 50  0001 C CNN
 	1    6500 4100
 	1    0    0    -1  
@@ -1032,8 +1028,6 @@ F 3 "" H 7800 2700 50  0001 C CNN
 	1    7800 2700
 	-1   0    0    1   
 $EndComp
-Text Notes 6850 2500 0    50   ~ 0
-Place close to the pins
 $Comp
 L power:VCC #PWR03
 U 1 1 5DE93BCC
@@ -1066,7 +1060,7 @@ U 1 1 5DEC8E51
 P 8700 2350
 F 0 "C3" H 8815 2396 50  0000 L CNN
 F 1 "47nF" H 8815 2305 50  0000 L CNN
-F 2 "" H 8738 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8738 2200 50  0001 C CNN
 F 3 "~" H 8700 2350 50  0001 C CNN
 	1    8700 2350
 	1    0    0    -1  
@@ -1081,7 +1075,7 @@ U 1 1 5DE66883
 P 7800 2350
 F 0 "C2" H 7915 2396 50  0000 L CNN
 F 1 "100nF" H 7915 2305 50  0000 L CNN
-F 2 "" H 7838 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7838 2200 50  0001 C CNN
 F 3 "~" H 7800 2350 50  0001 C CNN
 	1    7800 2350
 	1    0    0    -1  
@@ -1092,7 +1086,7 @@ U 1 1 5DEE6EAA
 P 7850 4200
 F 0 "R2" H 7920 4246 50  0000 L CNN
 F 1 "120Ohm" H 7920 4155 50  0000 L CNN
-F 2 "" V 7780 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 4200 50  0001 C CNN
 F 3 "~" H 7850 4200 50  0001 C CNN
 	1    7850 4200
 	1    0    0    -1  
@@ -1130,7 +1124,7 @@ U 1 1 5DF259BB
 P 8500 5100
 F 0 "C5" V 8248 5100 50  0000 C CNN
 F 1 "100pF" V 8339 5100 50  0000 C CNN
-F 2 "" H 8538 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8538 4950 50  0001 C CNN
 F 3 "~" H 8500 5100 50  0001 C CNN
 	1    8500 5100
 	0    1    1    0   
@@ -1143,7 +1137,7 @@ U 1 1 5DF1592A
 P 8500 3950
 F 0 "C4" V 8248 3950 50  0000 C CNN
 F 1 "100pF" V 8339 3950 50  0000 C CNN
-F 2 "" H 8538 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8538 3800 50  0001 C CNN
 F 3 "~" H 8500 3950 50  0001 C CNN
 	1    8500 3950
 	0    1    1    0   
@@ -1226,7 +1220,7 @@ U 1 1 5DF90768
 P 6500 6600
 F 0 "J4" H 6580 6642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 6580 6551 50  0000 L CNN
-F 2 "" H 6500 6600 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 6500 6600 50  0001 C CNN
 F 3 "~" H 6500 6600 50  0001 C CNN
 	1    6500 6600
 	1    0    0    -1  
@@ -1245,7 +1239,7 @@ $EndComp
 Wire Wire Line
 	6300 6700 6300 6850
 Text Label 3900 6800 2    40   ~ 0
-P0_1
+P2_11
 Wire Wire Line
 	3900 6800 4300 6800
 Wire Wire Line
@@ -1292,7 +1286,7 @@ U 1 1 5DFACB39
 P 9250 2350
 F 0 "C8" H 9365 2396 50  0000 L CNN
 F 1 "47nF" H 9365 2305 50  0000 L CNN
-F 2 "" H 9288 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9288 2200 50  0001 C CNN
 F 3 "~" H 9250 2350 50  0001 C CNN
 	1    9250 2350
 	1    0    0    -1  
@@ -1307,7 +1301,7 @@ U 1 1 5DFB8817
 P 7850 4700
 F 0 "JP4" V 7896 4612 50  0000 R CNN
 F 1 "Jumper_2_Bridged" V 7805 4612 50  0000 R CNN
-F 2 "" H 7850 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7850 4700 50  0001 C CNN
 F 3 "~" H 7850 4700 50  0001 C CNN
 	1    7850 4700
 	0    -1   -1   0   
@@ -1324,7 +1318,7 @@ U 1 1 5E0065EC
 P 7850 6700
 F 0 "R3" H 7920 6746 50  0000 L CNN
 F 1 "120Ohm" H 7920 6655 50  0000 L CNN
-F 2 "" V 7780 6700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 6700 50  0001 C CNN
 F 3 "~" H 7850 6700 50  0001 C CNN
 	1    7850 6700
 	1    0    0    -1  
@@ -1350,7 +1344,7 @@ U 1 1 5E006602
 P 8500 7600
 F 0 "C7" V 8248 7600 50  0000 C CNN
 F 1 "100pF" V 8339 7600 50  0000 C CNN
-F 2 "" H 8538 7450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8538 7450 50  0001 C CNN
 F 3 "~" H 8500 7600 50  0001 C CNN
 	1    8500 7600
 	0    1    1    0   
@@ -1363,7 +1357,7 @@ U 1 1 5E00660D
 P 8500 6450
 F 0 "C6" V 8248 6450 50  0000 C CNN
 F 1 "100pF" V 8339 6450 50  0000 C CNN
-F 2 "" H 8538 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8538 6300 50  0001 C CNN
 F 3 "~" H 8500 6450 50  0001 C CNN
 	1    8500 6450
 	0    1    1    0   
@@ -1390,7 +1384,7 @@ U 1 1 5E006620
 P 7850 7200
 F 0 "JP5" V 7896 7112 50  0000 R CNN
 F 1 "Jumper_2_Bridged" V 7805 7112 50  0000 R CNN
-F 2 "" H 7850 7200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7850 7200 50  0001 C CNN
 F 3 "~" H 7850 7200 50  0001 C CNN
 	1    7850 7200
 	0    -1   -1   0   
@@ -1401,4 +1395,47 @@ Wire Wire Line
 	7850 7000 7850 6850
 Wire Wire Line
 	9050 6450 9050 7600
+$Comp
+L power:+5V #PWR013
+U 1 1 5E0548B9
+P 7300 2000
+F 0 "#PWR013" H 7300 1850 50  0001 C CNN
+F 1 "+5V" H 7315 2128 50  0000 L CNN
+F 2 "" H 7300 2000 50  0001 C CNN
+F 3 "" H 7300 2000 50  0001 C CNN
+	1    7300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5E0548C3
+P 7300 2700
+F 0 "#PWR014" H 7300 2550 50  0001 C CNN
+F 1 "VCC" H 7317 2828 50  0000 L CNN
+F 2 "" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+	1    7300 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 2500 7300 2700
+Wire Wire Line
+	7300 2000 7300 2200
+$Comp
+L Device:C C9
+U 1 1 5E0548CF
+P 7300 2350
+F 0 "C9" H 7415 2396 50  0000 L CNN
+F 1 "100nF" H 7415 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7338 2200 50  0001 C CNN
+F 3 "~" H 7300 2350 50  0001 C CNN
+	1    7300 2350
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 2950 0    50   ~ 0
+Place close to the pins
+Text Label 3900 3900 2    40   ~ 0
+P1_17
+Text Label 3900 4000 2    40   ~ 0
+P1_18
 $EndSCHEMATC
