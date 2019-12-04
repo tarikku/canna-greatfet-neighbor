@@ -1099,10 +1099,6 @@ Wire Wire Line
 	5300 4200 6000 4200
 Wire Wire Line
 	6000 4100 6300 4100
-Text Label 5450 4000 0    50   ~ 0
-CANH1
-Text Label 5450 4200 0    50   ~ 0
-CANL1
 Text Label 7850 3900 0    50   ~ 0
 CANH1
 Text Label 7850 5100 0    50   ~ 0
@@ -1254,10 +1250,6 @@ Wire Wire Line
 	5300 6700 6000 6700
 Wire Wire Line
 	6000 6600 6300 6600
-Text Label 5450 6500 0    50   ~ 0
-CANH0
-Text Label 5450 6700 0    50   ~ 0
-CANL0
 $Comp
 L power:VCC #PWR011
 U 1 1 5DFACB25
@@ -1438,4 +1430,12 @@ Text Label 3900 3900 2    40   ~ 0
 P1_17
 Text Label 3900 4000 2    40   ~ 0
 P1_18
+Text Label 5450 6700 0    50   ~ 0
+CANL0
+Text Label 5450 6500 0    50   ~ 0
+CANH0
+Text Label 5450 4200 0    50   ~ 0
+CANL1
+Text Label 5450 4000 0    50   ~ 0
+CANH1
 $EndSCHEMATC
