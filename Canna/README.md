@@ -1,5 +1,6 @@
 # Canna - a CAN access neighbor
 ## for GreatFET
+PCB info
 
 - CAN0_TD: P3_2
 - CAN0_RD: P3_1
